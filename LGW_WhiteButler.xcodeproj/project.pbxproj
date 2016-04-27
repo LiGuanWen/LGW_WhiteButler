@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD129CEE1CD06D6300038D47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD129CED1CD06D6300038D47 /* main.m */; };
+		FD129CF11CD06D6300038D47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD129CF01CD06D6300038D47 /* AppDelegate.m */; };
+		FD129CF71CD06D6300038D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD129CF51CD06D6300038D47 /* Main.storyboard */; };
+		FD129CF91CD06D6300038D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD129CF81CD06D6300038D47 /* Assets.xcassets */; };
+		FD129CFC1CD06D6300038D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD129CFA1CD06D6300038D47 /* LaunchScreen.storyboard */; };
+		FD129D071CD06D6300038D47 /* LGW_WhiteButlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD129D061CD06D6300038D47 /* LGW_WhiteButlerTests.m */; };
+		FD129D121CD06D6300038D47 /* LGW_WhiteButlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD129D111CD06D6300038D47 /* LGW_WhiteButlerUITests.m */; };
+		FD129D2A1CD06FED00038D47 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD129D291CD06FED00038D47 /* MainTabBarViewController.m */; };
+		FDF8B3421CD089550001C861 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF8B3411CD089550001C861 /* OrderViewController.m */; };
+		FDF8B34C1CD09A980001C861 /* OrderTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF8B34A1CD09A980001C861 /* OrderTypeCell.m */; };
+		FDF8B34D1CD09A980001C861 /* OrderTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF8B34B1CD09A980001C861 /* OrderTypeCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD129D031CD06D6300038D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD129CE11CD06D6300038D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD129CE81CD06D6300038D47;
+			remoteInfo = LGW_WhiteButler;
+		};
+		FD129D0E1CD06D6300038D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD129CE11CD06D6300038D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD129CE81CD06D6300038D47;
+			remoteInfo = LGW_WhiteButler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD129CE91CD06D6300038D47 /* LGW_WhiteButler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGW_WhiteButler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD129CED1CD06D6300038D47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD129CEF1CD06D6300038D47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD129CF01CD06D6300038D47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD129CF61CD06D6300038D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD129CF81CD06D6300038D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD129CFB1CD06D6300038D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD129CFD1CD06D6300038D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD129D021CD06D6300038D47 /* LGW_WhiteButlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGW_WhiteButlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD129D061CD06D6300038D47 /* LGW_WhiteButlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGW_WhiteButlerTests.m; sourceTree = "<group>"; };
+		FD129D081CD06D6300038D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD129D0D1CD06D6300038D47 /* LGW_WhiteButlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGW_WhiteButlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD129D111CD06D6300038D47 /* LGW_WhiteButlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGW_WhiteButlerUITests.m; sourceTree = "<group>"; };
+		FD129D131CD06D6300038D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD129D281CD06FED00038D47 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		FD129D291CD06FED00038D47 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		FDF8B3401CD089550001C861 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		FDF8B3411CD089550001C861 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		FDF8B3491CD09A980001C861 /* OrderTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTypeCell.h; sourceTree = "<group>"; };
+		FDF8B34A1CD09A980001C861 /* OrderTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTypeCell.m; sourceTree = "<group>"; };
+		FDF8B34B1CD09A980001C861 /* OrderTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTypeCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD129CE61CD06D6300038D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD129CFF1CD06D6300038D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD129D0A1CD06D6300038D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD129CE01CD06D6300038D47 = {
+			isa = PBXGroup;
+			children = (
+				FD129CEB1CD06D6300038D47 /* LGW_WhiteButler */,
+				FD129D051CD06D6300038D47 /* LGW_WhiteButlerTests */,
+				FD129D101CD06D6300038D47 /* LGW_WhiteButlerUITests */,
+				FD129CEA1CD06D6300038D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD129CEA1CD06D6300038D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD129CE91CD06D6300038D47 /* LGW_WhiteButler.app */,
+				FD129D021CD06D6300038D47 /* LGW_WhiteButlerTests.xctest */,
+				FD129D0D1CD06D6300038D47 /* LGW_WhiteButlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD129CEB1CD06D6300038D47 /* LGW_WhiteButler */ = {
+			isa = PBXGroup;
+			children = (
+				FD129CEF1CD06D6300038D47 /* AppDelegate.h */,
+				FD129CF01CD06D6300038D47 /* AppDelegate.m */,
+				FD129D1F1CD06FBD00038D47 /* Classes */,
+				FD129CF51CD06D6300038D47 /* Main.storyboard */,
+				FD129CF81CD06D6300038D47 /* Assets.xcassets */,
+				FD129CFA1CD06D6300038D47 /* LaunchScreen.storyboard */,
+				FD129CFD1CD06D6300038D47 /* Info.plist */,
+				FD129CEC1CD06D6300038D47 /* Supporting Files */,
+			);
+			path = LGW_WhiteButler;
+			sourceTree = "<group>";
+		};
+		FD129CEC1CD06D6300038D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD129CED1CD06D6300038D47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD129D051CD06D6300038D47 /* LGW_WhiteButlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD129D061CD06D6300038D47 /* LGW_WhiteButlerTests.m */,
+				FD129D081CD06D6300038D47 /* Info.plist */,
+			);
+			path = LGW_WhiteButlerTests;
+			sourceTree = "<group>";
+		};
+		FD129D101CD06D6300038D47 /* LGW_WhiteButlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD129D111CD06D6300038D47 /* LGW_WhiteButlerUITests.m */,
+				FD129D131CD06D6300038D47 /* Info.plist */,
+			);
+			path = LGW_WhiteButlerUITests;
+			sourceTree = "<group>";
+		};
+		FD129D1F1CD06FBD00038D47 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD129D201CD06FBD00038D47 /* Common */,
+				FD129D211CD06FBD00038D47 /* Expend */,
+				FD129D221CD06FBD00038D47 /* Home */,
+				FD129D231CD06FBD00038D47 /* MainTabBar */,
+				FD129D241CD06FBD00038D47 /* Network */,
+				FD129D251CD06FBD00038D47 /* Order */,
+				FD129D261CD06FBD00038D47 /* Other */,
+				FD129D271CD06FBD00038D47 /* UserCenter */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FD129D201CD06FBD00038D47 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FD129D211CD06FBD00038D47 /* Expend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Expend;
+			sourceTree = "<group>";
+		};
+		FD129D221CD06FBD00038D47 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FD129D231CD06FBD00038D47 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FD129D281CD06FED00038D47 /* MainTabBarViewController.h */,
+				FD129D291CD06FED00038D47 /* MainTabBarViewController.m */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		FD129D241CD06FBD00038D47 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FD129D251CD06FBD00038D47 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				FDF8B3401CD089550001C861 /* OrderViewController.h */,
+				FDF8B3411CD089550001C861 /* OrderViewController.m */,
+				FDF8B3481CD09A860001C861 /* Cells */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		FD129D261CD06FBD00038D47 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FD129D271CD06FBD00038D47 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		FDF8B3481CD09A860001C861 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FDF8B3491CD09A980001C861 /* OrderTypeCell.h */,
+				FDF8B34A1CD09A980001C861 /* OrderTypeCell.m */,
+				FDF8B34B1CD09A980001C861 /* OrderTypeCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD129CE81CD06D6300038D47 /* LGW_WhiteButler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD129D161CD06D6300038D47 /* Build configuration list for PBXNativeTarget "LGW_WhiteButler" */;
+			buildPhases = (
+				FD129CE51CD06D6300038D47 /* Sources */,
+				FD129CE61CD06D6300038D47 /* Frameworks */,
+				FD129CE71CD06D6300038D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGW_WhiteButler;
+			productName = LGW_WhiteButler;
+			productReference = FD129CE91CD06D6300038D47 /* LGW_WhiteButler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD129D011CD06D6300038D47 /* LGW_WhiteButlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD129D191CD06D6300038D47 /* Build configuration list for PBXNativeTarget "LGW_WhiteButlerTests" */;
+			buildPhases = (
+				FD129CFE1CD06D6300038D47 /* Sources */,
+				FD129CFF1CD06D6300038D47 /* Frameworks */,
+				FD129D001CD06D6300038D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD129D041CD06D6300038D47 /* PBXTargetDependency */,
+			);
+			name = LGW_WhiteButlerTests;
+			productName = LGW_WhiteButlerTests;
+			productReference = FD129D021CD06D6300038D47 /* LGW_WhiteButlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD129D0C1CD06D6300038D47 /* LGW_WhiteButlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD129D1C1CD06D6300038D47 /* Build configuration list for PBXNativeTarget "LGW_WhiteButlerUITests" */;
+			buildPhases = (
+				FD129D091CD06D6300038D47 /* Sources */,
+				FD129D0A1CD06D6300038D47 /* Frameworks */,
+				FD129D0B1CD06D6300038D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD129D0F1CD06D6300038D47 /* PBXTargetDependency */,
+			);
+			name = LGW_WhiteButlerUITests;
+			productName = LGW_WhiteButlerUITests;
+			productReference = FD129D0D1CD06D6300038D47 /* LGW_WhiteButlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD129CE11CD06D6300038D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "第七代目";
+				TargetAttributes = {
+					FD129CE81CD06D6300038D47 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FD129D011CD06D6300038D47 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD129CE81CD06D6300038D47;
+					};
+					FD129D0C1CD06D6300038D47 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD129CE81CD06D6300038D47;
+					};
+				};
+			};
+			buildConfigurationList = FD129CE41CD06D6300038D47 /* Build configuration list for PBXProject "LGW_WhiteButler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD129CE01CD06D6300038D47;
+			productRefGroup = FD129CEA1CD06D6300038D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD129CE81CD06D6300038D47 /* LGW_WhiteButler */,
+				FD129D011CD06D6300038D47 /* LGW_WhiteButlerTests */,
+				FD129D0C1CD06D6300038D47 /* LGW_WhiteButlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD129CE71CD06D6300038D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF8B34D1CD09A980001C861 /* OrderTypeCell.xib in Resources */,
+				FD129CFC1CD06D6300038D47 /* LaunchScreen.storyboard in Resources */,
+				FD129CF91CD06D6300038D47 /* Assets.xcassets in Resources */,
+				FD129CF71CD06D6300038D47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD129D001CD06D6300038D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD129D0B1CD06D6300038D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD129CE51CD06D6300038D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD129D2A1CD06FED00038D47 /* MainTabBarViewController.m in Sources */,
+				FD129CF11CD06D6300038D47 /* AppDelegate.m in Sources */,
+				FDF8B34C1CD09A980001C861 /* OrderTypeCell.m in Sources */,
+				FD129CEE1CD06D6300038D47 /* main.m in Sources */,
+				FDF8B3421CD089550001C861 /* OrderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD129CFE1CD06D6300038D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD129D071CD06D6300038D47 /* LGW_WhiteButlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD129D091CD06D6300038D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD129D121CD06D6300038D47 /* LGW_WhiteButlerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD129D041CD06D6300038D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD129CE81CD06D6300038D47 /* LGW_WhiteButler */;
+			targetProxy = FD129D031CD06D6300038D47 /* PBXContainerItemProxy */;
+		};
+		FD129D0F1CD06D6300038D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD129CE81CD06D6300038D47 /* LGW_WhiteButler */;
+			targetProxy = FD129D0E1CD06D6300038D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD129CF51CD06D6300038D47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD129CF61CD06D6300038D47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD129CFA1CD06D6300038D47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD129CFB1CD06D6300038D47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD129D141CD06D6300038D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD129D151CD06D6300038D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD129D171CD06D6300038D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGW_WhiteButler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-WhiteButler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD129D181CD06D6300038D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGW_WhiteButler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-WhiteButler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD129D1A1CD06D6300038D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGW_WhiteButlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-WhiteButlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGW_WhiteButler.app/LGW_WhiteButler";
+			};
+			name = Debug;
+		};
+		FD129D1B1CD06D6300038D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGW_WhiteButlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-WhiteButlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGW_WhiteButler.app/LGW_WhiteButler";
+			};
+			name = Release;
+		};
+		FD129D1D1CD06D6300038D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGW_WhiteButlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-WhiteButlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGW_WhiteButler;
+			};
+			name = Debug;
+		};
+		FD129D1E1CD06D6300038D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGW_WhiteButlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-WhiteButlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGW_WhiteButler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD129CE41CD06D6300038D47 /* Build configuration list for PBXProject "LGW_WhiteButler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD129D141CD06D6300038D47 /* Debug */,
+				FD129D151CD06D6300038D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD129D161CD06D6300038D47 /* Build configuration list for PBXNativeTarget "LGW_WhiteButler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD129D171CD06D6300038D47 /* Debug */,
+				FD129D181CD06D6300038D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD129D191CD06D6300038D47 /* Build configuration list for PBXNativeTarget "LGW_WhiteButlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD129D1A1CD06D6300038D47 /* Debug */,
+				FD129D1B1CD06D6300038D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD129D1C1CD06D6300038D47 /* Build configuration list for PBXNativeTarget "LGW_WhiteButlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD129D1D1CD06D6300038D47 /* Debug */,
+				FD129D1E1CD06D6300038D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD129CE11CD06D6300038D47 /* Project object */;
+}
